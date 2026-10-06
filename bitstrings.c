@@ -13,7 +13,11 @@ int main(int argc, char *argv[]) {
   char a2 = 0b00111000;
   char b2 = 0b01100001;
   char c2 = 0b00100000;
+<<<<<<< HEAD
   assert((a2 &  b2) == c2);
+=======
+  assert((a2 & b2) == c2);
+>>>>>>> 71da80e4b657f14fe2781ca223fb90c64bf70fd8
 
   char a3 = 0b01010101;
   char b3 = 0b10101111;
@@ -23,7 +27,11 @@ int main(int argc, char *argv[]) {
   char a4 = 0b01010101;
   char b4 = 0b10101111;
   char c4 = 0b11111010;
+<<<<<<< HEAD
   assert((a4^ b4) == c4);
+=======
+  assert((a4 ^ b4) == c4);
+>>>>>>> 71da80e4b657f14fe2781ca223fb90c64bf70fd8
 
   char a5 = 0b01010101;
   char b5 = 0b10101111;
